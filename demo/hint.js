@@ -1,59 +1,51 @@
-var mysuggests = [
-    {
-        mode: 'markdown',
-        startChar: '@',
-        listCallback: function() {
-            return [
-                {
-                    text: 'cebe ',
-                    displayText: 'cebe'
-                },
-                {
-                    text: 'jacmoe ',
-                    displayText: 'jacmoe'
-                },
-                {
-                    text: 'samdark ',
-                    displayText: 'samdark'
-                }
-            ];
+function anyhints(editor, options) {
+    var wholelist = [
+        {
+            text: 'tom}}',
+            displayText: 'tom'
+        },
+        {
+            text: 'jerry}}',
+            displayText: 'jerry'
+        },
+        {
+            text: 'john}}',
+            displayText: 'john'
         }
-    },
-    {
-        mode: 'markdown',
-        startChar: '#',
-        listCallback: function() {
-            return [
-                {
-                    text: '#hash ',
-                    displayText: 'hash'
-                }
-            ];
-        }
-    }
-];
+    ];
+    var cur = editor.getCursor(), curLine = editor.getLine(cur.line);
+    var end = cur.ch, start = end;
+    while (start && /[\w$]+/.test(curLine.charAt(start - 1))) --start;
+    var curWord = start != end && curLine.slice(start, end);
 
-function autoSuggest(editor, suggestions) {
-    editor.codemirror.on("inputRead", function(cm, change){
-        var mode = cm.getModeAt(cm.getCursor());
-        for (var i = 0, len = suggestions.length; i < len; i++) {
-        if (mode.name === suggestions[i].mode &&
-            change.text[0] === suggestions[i].startChar) {
+    var list = _.filter(wholelist, function(item) { return item.displayText.startsWith(curWord); });
+    if(list.length==0) list = wholelist;
+
+    return {list: list, from: SimpleMDE.CodeMirror.Pos(cur.line, start), to: SimpleMDE.CodeMirror.Pos(cur.line, end)};
+}
+
+
+function registerHints(editor) {
+    editor.codemirror.setOption("extraKeys", {
+        "Alt-Space": "autocomplete"
+    });
+
+    SimpleMDE.CodeMirror.registerHelper(
+        "hint",
+        "markdown",
+        anyhints
+    );
+
+    editor.codemirror.on("inputRead", function (cm, change) {
+        var cur = cm.getCursor(),
+            curLine = cm.getLine(cur.line);
+
+        var lastChar = curLine.charAt(cur.ch-2);
+
+        if (change.text[0] == "{" && lastChar == "{") {
             cm.showHint({
-                completeSingle: false,
-                hint: function (cm, options) {
-                    var cur = cm.getCursor(),
-                        token = cm.getTokenAt(cur);
-                    var start = token.start + 1,
-                        end = token.end;
-                    return {
-                        list: suggestions[i].listCallback(),
-                        from: SimpleMDE.Pos(cur.line, start),
-                        to: SimpleMDE.Pos(cur.line, end)
-                    };
-                }
+                completeSingle: false
             });
-        }
         }
     });
 }

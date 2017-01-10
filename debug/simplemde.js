@@ -17902,9 +17902,7 @@ SimpleMDE.prototype.toTextArea = function() {
 	}
 };
 
-SimpleMDE.Pos = function(line, ch) {
-	return CodeMirror.Pos(line, ch);
-};
+SimpleMDE.CodeMirror = CodeMirror;
 
 module.exports = SimpleMDE;
 },{"./codemirror/tablist":20,"codemirror":11,"codemirror-spell-checker":4,"codemirror/addon/display/fullscreen.js":5,"codemirror/addon/display/placeholder.js":6,"codemirror/addon/edit/continuelist.js":7,"codemirror/addon/hint/show-hint.js":8,"codemirror/addon/mode/overlay.js":9,"codemirror/addon/selection/mark-selection.js":10,"codemirror/mode/gfm/gfm.js":12,"codemirror/mode/markdown/markdown.js":13,"codemirror/mode/xml/xml.js":15,"marked":18}]},{},[21])(21)

@@ -2026,8 +2026,6 @@ SimpleMDE.prototype.toTextArea = function() {
 	}
 };
 
-SimpleMDE.Pos = function(line, ch) {
-	return CodeMirror.Pos(line, ch);
-};
+SimpleMDE.CodeMirror = CodeMirror;
 
 module.exports = SimpleMDE;
