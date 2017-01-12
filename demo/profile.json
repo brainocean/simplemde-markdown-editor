@@ -1,0 +1,288 @@
+{
+    "packageId": "BP_CLD_ENTPR",
+    "type": "SOLUTION",
+    "leadingProduct": "S4CLD",
+    "leadingProductVersion": "1608",
+    "country": "US",
+    "language": "EN",
+    "name": "SAP Best Practices for SAP S/4HANA Enterprise Management Cloud",
+    "contentVersion": "5",
+
+    "businessBenefits": [
+	"Reduce cost of operations by using standardized processes",
+	"Manage multiple geographies, divisions, subsidiaries, and ledgers with global and country-specific content",
+	"Drive operational efficiencies and comply with regulations",
+	"Empower business and IT users equally with guided configuration",
+	"Allow a  first-hand experience of SAP S/4HANA with instant guided trials",
+	"Update and change customer specific configuration using SAP S/4HANA life-cycle management tools"
+    ],
+    "businessChallenges": [
+	"Lacking process integration and insight into a unified view of the business in a digital world",
+	"Driving operational efficiencies and complying with regulations",
+	"Increasing business process complexity and the lack of a flexible system that can scale",
+	"Lacking a capability to manage multiple geographies, divisions, subsidiaries, general ledgers, and currencies",
+	"Growing the business while maintaining profitability and customer satisfaction",
+	"Reducing costs and standardizing processes"
+    ],
+    "businessKpis": [
+	"Streamline and automate sourcing and procurement processes",
+	"Extend customer fulfillment and service offerings",
+	"Reduce revenue and margin leakage",
+	"Integrate and align manufacturing processes across the network"
+    ],
+    "contacts": "<p>Package owner: Kristina Henn</p>\n<p>Go-to-Market: Ruxandra Zamfir</p>\n<p>Package build lead: Dominik Winkel</p>\n<p>Roll-out lead: Helen Apps Villa</p>\n<p>Solution lead: Ulrike Raidl</p>\n<p>Service offering manager: Paul Smith</p>",
+    "corporateStrategicIntent": "The SAP Best Practices for SAP S/4HANA Enterprise Management Cloud support the new requirements of SAP's strategic direction of delivering SAP software on-premise and in the cloud to meet the newest technology and market demands of the digital world.",
+    "coverImage": "http://go.sap.com/content/dam/application/imagelibrary/photos/272000/272216.jpg",
+    "customerRole": "CXO",
+    "customerSize": [
+	"LARGE",
+	"MEDIUM",
+	"SMALL"
+    ],
+    "customerTestimonialsLink": [],
+    "customerType": "Net new customers and installed base (net new installations)",
+    "explanatoryDiagram": {
+	"fileIsTemplate": false,
+	"fileName": "BP_CLD_ENTPR_1608_S4HANA_1608_Explanatory_Diagram_EN.pptx",
+	"fileType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "explanatoryDiagramSs": {
+	"fileIsTemplate": false,
+	"fileName": "BP_CLD_ENTPR_S4HANA_1608_Explanatory_Diagram_EN.PNG",
+	"fileType": "image/png"
+    },
+    "generalAvailabilityDate": "2016-08-29",
+    "headlineForGoLiveInWeeks": "Go live starting at 14 weeks, including one week and month end-closing support",
+    "headlineForHighlights": "\nAccelerate and simplify the adoption of SAP S/4HANA\n",
+    "id": "19153ee1aee041c7880a11740beea571",
+    "implementationRequirements": [],
+    "industry": [
+	"DEFAULT"
+    ],
+    "keyCompetitiveDifferentiator": [
+	"Accelerate and simplify the adoption of SAP S/4HANA Enterprise Management in the cloud for faster time to value,",
+	"Simplify your organization across the world with global and country-specific business processes and reporting",
+	"Accelerate your implementation with guided configuration and best practices for migration empowering business and IT users equally",
+	"Leverage additional SAP Best Practices to support the integration of S/4HANA with adjacent line-of-business and industry offerings"
+    ],
+    "lineOfBusiness": [
+	"206",
+	"56",
+	"60",
+	"62",
+	"64",
+	"68",
+	"72",
+	"76",
+	"89",
+	"92",
+	"97",
+	"99"
+    ],
+    "linkCustomers": [
+	{
+	    "href": "http://discover.sap.com/S4HANA",
+	    "label": "SAP Business Suite 4 SAP HANA"
+	},
+	{
+	    "href": "htt://www.sap.com/s4hana-trial",
+	    "label": "SAP Business Suite "
+	},
+	{
+	    "href": "http://www.sap.com/activate",
+	    "label": "SAP Activate"
+	},
+	{
+	    "href": "http://scn.sap.com/docs/DOC-64980",
+	    "label": "SAP S/4HANA Cookbook"
+	}
+    ],
+    "linkInternal": [
+	{
+	    "href": "https://jam4.sapjam.com/groups/joRdDIDQIgRdm8NGddg5JL/content",
+	    "label": "SAP S/4HANA Best Practices Internal Jam"
+	},
+	{
+	    "href": "https://jam4.sapjam.com/groups/about_page/VGdROFfkTdGDYHp5izTHZX",
+	    "label": "SAP S/4HANA Best Practices and Services "
+	},
+	{
+	    "href": "https://jam4.sapjam.com/groups/about_page/iTmC0SiKCYwKNTxEsk3yh8",
+	    "label": "SAP Business Suite 4 SAP HANA GTM Jam"
+	}
+    ],
+    "linkPartners": [
+	{
+	    "href": "https://partneredge.sap.com/en/products/s4h/about.html",
+	    "label": "SAP Partner Edge Portal"
+	}
+    ],
+    "linkSmp": [
+	{
+	    "href": "http://service.sap.com/public/S4CE",
+	    "label": "SAP Best Practices for S/4HANA "
+	}
+    ],
+    "longDescription": "<p>Accelerate and simplify the adoption of SAP S/4HANA Enterprise Management in the cloud for faster time to value, using SAP Best Practices business processes with the knowledge of being legally compliant in different countries.</p>\n<p>\n<p>The Enterprise Management Cloud provides pre-configured content for core business processes in finance, procurement, manufacturing and supply chain. These processes are supported by SAP Fiori for a role-specific, intuitive and simpler user experience. To complement the business processes, embedded analytics and Fiori Overview pages add real-time insight into data.</p>\n<p>In addition, the cloud offers SAP Best Practices for integration to other cloud solutions, such as SuccessFactors Employee Central and Ariba. SAP Best Practices for Migration complements the foundation and offers customers a non-disruptive, simplified transition to SAP S/4HANA Enterprise Management Cloud. The guided configuration allows a simpler configuration, automated testing, and content life-cycle management to support agile adoption of continuous innovation even after go-live.</p>\n<p></p></p>",
+    "marketingGraphic": "http://go.sap.com/content/dam/application/imagelibrary/illustrations/273000/273909.jpg",
+    "moreOtherLink": [],
+    "outcomeBasedService": [],
+    "owner": "I058753",
+    "packageBuildType": "Upgrade with Scope Change",
+    "packageCode": "BP_CLD_ENTPR_S4CLD1608V5",
+    "proofPoints": [],
+    "qualificationQuestionnaire": [
+	{
+	    "questions": [],
+	    "sectionDesc": "What product or software releases are required to operate this rapid-deployment solution?",
+	    "sectionName": "Solution Prerequisites"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "... for a rough evaluation of where the customer stands today.",
+	    "sectionName": "What solutions are currently being used (SAP or competitor products, and versions)"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "On which devices or platforms might the intended solution be used?",
+	    "sectionName": "Specific devises or platforms"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "What are the typical business processes that the customer might be interested in or might be supported with the rapid-deployment solution?",
+	    "sectionName": "Specific business processes"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "How is the customer handling a specific situation today?",
+	    "sectionName": "Evaluate the customer's situation"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "... which might have an impact on use of the solution?",
+	    "sectionName": "Company size, potential number of named and active users"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "... for cross- and upselling existing RDS, to strategically evaluate further RDS build potential, to evaluate additional customer demand",
+	    "sectionName": "Solutions that customers might demand on top of this RDS"
+	},
+	{
+	    "questions": [],
+	    "sectionDesc": "",
+	    "sectionName": "Other questions"
+	}
+    ],
+    "refContentCluster": [
+	"S4HANA Core Content Cluster"
+    ],
+    "referenceVideoLink": [],
+    "relatedServices": [
+	"Rapid Data Migration to S/4HANA Cloud"
+    ],
+    "relatedSolutions": [
+	{
+	    "href": "http://service.sap.com/public/S4OP",
+	    "label": "SAP Best Practices for SAP S/4HANA (on premise)"
+	},
+	{
+	    "href": "http://service.sap.com/public/S4PS",
+	    "label": "SAP Best Practices for SAP S/4HANA Professional Services Cloud"
+	},
+	{
+	    "href": "http://service.sap.com/public/S4MKT",
+	    "label": "SAP Best Practices for SAP S/4HANA Marketing"
+	}
+    ],
+    "releaseNotes": [
+	"Updates to 35 scope items",
+	"21 new scope items:",
+	"Sourcing and Procurement: Serial Number Management (BLL), Requisitioning (18J), Ariba -Sourcing Integration (1A0)",
+	"Manufacturing: Make-to-Order Production - Semifinished Goods Planning and Assembly (1BM)",
+	"Sales: Accelerated Customer Returns (BKP), Sales Contract Management (I9I), Credit Memo Processing (1EZ), Debit Memo Processing (1F1), Supplier Activity Management (19C), Supplier Classification and Segmentation (19E)",
+	"Finance: Statutory Reporting Framework Reports (1J2), Accounting and Financial Close - Parallel Ledger (1GA), Asset Accounting - Parallel Ledger (1GB), Asset under Construction - Parallel Ledger (1GF), Event-Based Revenue Recognition - Project-Based Services (1IL), Bank Integration with Financial Services Network (16R), Profit and Loss Plan Data Load from File (1HB), Ariba – Integration for Finance (19O)",
+	"Analytics: Customer Project Analysis (BGI), Utilization Analysis (BGJ), Fiori Overview Pages for Sales and Distribution (1BS)",
+	"New: Flexible Ledger to allow companies to choose between single or parallel ledger accounting",
+	"Localization: Switzerland (CH)"
+    ],
+    "servBusinessNeeds": [
+	"Reduce operational costs and simplify infrastructure by moving to SAP Cloud",
+	"Deploy standardized processes to drive operational efficiencies",
+	"Gain insight into enterprise-wide real-time information"
+    ],
+    "servDelvApproach": [
+	"Perform solution validation to identify customer defined configuration changes and gaps, based on SAP Best Practices and defined scope limitations",
+	"Perform customer defined sample configuration changes in the solution",
+	"Execute unit testing with sample customer organizational and master test data",
+	"Provide knowledge transfer for activities such as guided configuration, user maintenance, authorizations, data load, test planning, and test execution",
+	"Provide support for go-live"
+    ],
+    "servValueBenefits": [
+	"Quick time to value utilizing pre-installed SAP Best Practices",
+	"Support the customer to map the SAP Best Practice processes to their business",
+	"Comprehensive knowledge transfer to customer project team"
+    ],
+    "serviceDifferentiators": [
+	"A world-class Enterprise Management solution powered by SAP S/4HANA Enterprise Management Cloud that has been preconfigured, pretested, and predocumented to save time and cost during implementation.",
+	"SAP Consulting has extensive expertise and knowledge of SAP S/4HANA.",
+	"Shortened time to go-live versus a traditional approach",
+	"Configuration is accomplished using a guided configuration tool.",
+	"Availability of multiple country versions of the SAP Best Practices.",
+	"Ability to grow and scale the solution."
+    ],
+    "serviceMaterialNumber": "50130591",
+    "serviceName": "Quick-start implementation of SAP S/4HANA Enterprise Management Cloud",
+    "serviceScope": [
+	"The service includes:",
+	"Performing key user enablement via a solution walk through",
+	"Performing solution validation with SAP’s experts to identify configuration changes and gaps, based on defined scope & limitations",
+	"Performing customer defined configuration in the solution using the guided configuration tool",
+	"Execute unit testing with sample customer data",
+	"Providing knowledge transfer for activities such as guided configuration, user maintenance, authorizations, data load, test planning and test execution",
+	"Providing support for data load and go-live"
+    ],
+    "shortDescription": "\nAccelerate and simplify the adoption of SAP S/4HANA Enterprise Management in the cloud for faster time to value, using SAP Best Practices business processes with the knowledge of being legally compliant in different countries.\n",
+    "shortName": "SAP S/4HANA Enterprise Management Cloud",
+    "shortServDesc": "With this service, companies can quickly deploy the SAP Best Practices for SAP S/4HANA Enterprise Management Cloud. The service enables a customer to experience the simplification and innovation delivered by SAP S/4HANA across Finance, Sales, Procurement, Manufacturing, Project Services &amp; Asset Maintenance LOBs deployed on the SAP Cloud.",
+    "socialMediaList": [
+	{
+	    "href": "http://discover.sap.com/S4HANA",
+	    "label": "SAP S/4HANA: A reimagined suite to reimagine business",
+	    "type": "Sapcom"
+	}
+    ],
+    "softwareDownloadCenter": "http://service.sap.com/~form/handler?_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=73555000100100002631&V=INST",
+    "softwareRequirements": "<ul>\n<li><span>SAP S/4HANA </span><span>Enterprise Management Cloud 1608</span></li>\n<li><span>Browsers for Microsoft Windows:</span></li>\n<ul>\n<li><span>Internet Explorer (minimum 11.x), or</span></li>\n<li><span>Google Chrome (latest version), or</span></li>\n<li><span>Mozilla Firefox (Latest RRC 2 / latest ESR)</span></li>\n</ul>\n<li><span>Browser Apple </span><span>MacOSX</span><span>:</span></li>\n<ul>\n<li><span>Apple Safari (latest version)</span></li>\n</ul>\n<li><span>For integration:</span></li>\n<ul>\n<li><span>Ariba</span><span> Network (current version)</span></li>\n<li>S<span>AP </span><span>SuccessFactors</span><span> Employee Central (current version)</span></li>\n<li><span>Financial Services Network (current version)</span></li>\n<li><span>Vertex (US Only - current version)</span></li>\n</ul>\n</ul>",
+    "systemLandscapeGraphic": {
+	"fileIsTemplate": false,
+	"fileName": "BP_CLD_ENTPR_S4CLD1605V4_System_Landscape.pptx",
+	"fileType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    "top_3ObjectionsAndAnswers": [],
+    "vender": "SAP",
+    "version": "1608",
+    "whatDoWeDeliver": [
+	"Perform kick off workshop",
+	"Define data migration strategy",
+	"Conduct solution validation workshops and fit to standard analysis",
+	"Define test strategy",
+	"Complete configuration for customer defined options and assist in defect resolution for unit tests",
+	"Conduct solution walk-through with key project stakeholders",
+	"Provide go-live support"
+    ],
+    "whatDoYouNeedToDo": [
+	"Define chart of accounts, organizational structure and sample master data",
+	"Request the Q-System and the P-System",
+	"Provide fixed contact people in the business and IT departments",
+	"Attend solution validation and solution walkthrough workshops",
+	"Prepare and perform master data load",
+	"Set up roles and authorizations",
+	"Request transports into the P-System",
+	"Perform unit and integration testing",
+	"Prepare end user training material",
+	"Perform end-user training and organizational change management",
+	"Prepare cutover plan and execute cutover tasks",
+	"Provide post go live support"
+    ],
+    "zbun": "S4_CL_EPE"
+}
