@@ -19,4 +19,4 @@ Unordered lists can be started using the toolbar or by typing `* `, `- `, or `+ 
 <div class="right">
 ![Yes](https://i.imgur.com/sZlktY7.png)
 </div>
-{{longDescription}}
+{{profile.longDescription}}
