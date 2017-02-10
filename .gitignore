@@ -2,6 +2,8 @@ localtesting/
 node_modules/
 bower_components/
 
+.DS_Store
+
 #For IDE
 *.iml
 *.ipr

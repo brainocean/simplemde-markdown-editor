@@ -6,15 +6,27 @@
 
 {{profile.shortDescription}}
 
-### Business Scope
-
-
-{{#block "red"}}
 ### Benefits
+{{#block "highlight"}}
 {{#profile.businessBenefits}}
 * {{.}}
 {{/profile.businessBenefits}}
 {{/block}}
+
+-----------
+
+### Business Scope
+#### Scope items
+| ID | Name | Description |
+|----|------|-------------|
+{{#scopeItems}}
+| {{scopeItemId}} | {{name}} | {{shortDescription}} |
+{{/scopeItems}}
+
+#### Scope item groups
+{{#scopeItemGroups}}
+* {{name}}
+{{/scopeItemGroups}}
 
 ---------
 
