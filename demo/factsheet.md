@@ -7,7 +7,7 @@
 {{profile.shortDescription}}
 
 ### Benefits
-{{#block "highlight"}}
+{{#block "highlight1"}}
 {{#profile.businessBenefits}}
 * {{.}}
 {{/profile.businessBenefits}}
@@ -33,7 +33,7 @@
 ### Software used
 {{{profile.softwareRequirements}}}
 
-#### Measurable success
+### Measurable success
 {{#profile.keyCompetitiveDifferentiator}}
 * {{.}}
 {{/profile.keyCompetitiveDifferentiator}}
